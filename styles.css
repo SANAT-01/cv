@@ -1,0 +1,71 @@
+body {background-color:#deefee;
+     margin: 0px;}
+		
+hr {border-style: none;
+	border-top: 5px dotted rgb(118, 154, 130) ;
+	width: 2%;}
+
+
+h1 {color: #66bfb6;
+     font-family: "monaco", monospace ;}
+
+
+h2 {color: #66bfb6;
+     font-family: "monaco", monospace ;}
+
+h3 {color:#4c5150;
+     font-family: "Arial",Sans-serif ;
+     font-size: 15px;}
+
+.myDiv1 {padding-left: 100px;}
+
+.myDiv2 {margin-left: 20px;
+     margin-right: 20px;
+     padding: 5px;}
+
+.container {background-color: #339c91;}
+
+.my_bio {font-family: "sofia", Sans-serif ;
+     font-size: 25px;}
+
+/*navugation menu*/     
+.nav_menu {list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: #333333;}
+   
+.nav {float: left;}
+
+.nav a {display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;}
+
+.nav a:hover {background-color: #111111;}
+
+/*Footer*/
+
+.footer-list {list-style-type: none;
+     margin-left: 450px;
+     padding: 0;
+     overflow: hidden;
+     background-color: #269792;}
+   
+.footer-list li {float: left;}
+
+.footer-list li a {display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;}
+
+.footer-list a:hover {background-color: #086a56;}
+
+.copy_r {text-align: center;}
+
+#profile_img {border-radius: 80%;}
+
+#greeting {text-shadow: 3px 3px 3px #c3c2c2;
+     font-family: "brush script m7", lucida handwriting, cursive ;}

@@ -5,35 +5,44 @@
     <title>Home</title>
 	<link rel="stylesheet" href="styles.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat:wght@100&family=Sacramento&display=swap" rel="stylesheet">
 	<link rel="icon" href="favicon.ico" type="favicon">
   </head>
 
   <body>
-	<div class="myDiv0">
+	<div class="nav_div">
 		<ul class = "nav_menu">
-			<li class ="nav" ><a href="index.html">Home</a></li>
 			<li class ="nav"><a href="#news">News</a></li>
 			<li class ="nav"><a href="contact.html">Contact</a></li>
 			<li class ="nav"><a href="#about">About</a></li>
+			<li class ="nav" ><a href="index.html">Home</a></li>
 		  </ul>
 	</div>
 
 	<div class="myDiv1">
-		<table class="Home" cellspacing="20">
+		<table class="prof_table" cellspacing="20">
 			<tbody>
 				<tr>
 					<td><img src="Sanat.jpg" alt="profile.png"  width="390" height="360" id="profile_img"></td>
-					<td><h1 id="greeting">Hello,<br> I'm Sanat Tudu</h1></td>
+					<td><h1 id="greeting">Hello,<br> I'm Sanat Tudu</h1>
+						<section aria-label="quick summary" class="my_bio">
+							I'm a enthusiastic programmer and love exploring new technologies.
+					  </section>
+					</td>
 				</tr>
 			</tbody>
 		</table>
 	  </div>
+
+	<div class="sce_div">
+		<img src="cloud.png" alt="" class="cloud1">
+		<img src="scenery2.png" alt="" class="scenery">
+	</div>  
 	<div class="myDiv2">
-		<section aria-label="quick summary" class="my_bio">
-			  I'm a enthusiastic programmer and love exploring new technologies.
-		</section>
 		<hr>
-		<h2>EDUCATION</h2>
+		<h2 style="margin-top: 0px;">EDUCATION</h2>
 		<p>
 			Indian Institute Of technology, Bhilai<br>
 			Bachelor Of Technology - Data Science and Artificial Intelligence
@@ -42,7 +51,7 @@
 		<section >
 			<h2>TECHNICAL SKILLS</h2>
 			<h3>Programming</h3>
-			<table cellspacing="10" style="background-color: #1cc0ad;">
+			<table cellspacing="10">
 				<tbody>
 					<tr>
 						<td>Python</td>
@@ -82,7 +91,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="copy_r">
+				<div class="copy_r" >
 					<p>© 2022 <a href="https://sanat-01.github.io/cv/">Sanat Tudu</a>. All rights reserved.</p>
 				</div>
 			</div>

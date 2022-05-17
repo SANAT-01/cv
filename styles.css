@@ -6,18 +6,37 @@ hr {border-style: none;
 	width: 2%;}
 
 
-h1 {color: #66bfb6;
+h1 {color: #288d82;
      font-family: "monaco", monospace ;}
 
 
-h2 {color: #66bfb6;
+h2 {color: #0e7367;
      font-family: "monaco", monospace ;}
 
-h3 {color:#4c5150;
+h3 {color:#59b5a2;
      font-family: "Arial",Sans-serif ;
      font-size: 15px;}
 
-.myDiv1 {padding-left: 100px;}
+.prof_table {margin: auto;}
+
+.myDiv1 {padding-top: 30px;}
+
+.sce_div {margin: 0 auto 0 auto;
+     width: 800px;}
+
+.cloud1 {position: absolute;
+     height: 100px;
+     width: 150px;
+     right: 600px;}
+
+/*.cloud2 {position: absolute;
+     height: 100px;
+     width: 150px;
+     left: 300px;
+     top: 300px;}*/
+
+.sceery {height: 470px;
+     width: 800px;}
 
 .myDiv2 {margin-left: 20px;
      margin-right: 20px;
@@ -25,17 +44,21 @@ h3 {color:#4c5150;
 
 .container {background-color: #339c91;}
 
-.my_bio {font-family: "sofia", Sans-serif ;
-     font-size: 25px;}
+.my_bio {font-family: 'Merriweather', serif;
+     font-size: 20px;}
 
-/*navugation menu*/     
+.detail_div {padding-top: 30px;}
+/*navugation menu*/    
+.nav_div {position: fixed;
+     width: -webkit-fill-available;}
+
 .nav_menu {list-style-type: none;
      margin: 0;
      padding: 0;
      overflow: hidden;
      background-color: #333333;}
    
-.nav {float: left;}
+.nav {float: right;}
 
 .nav a {display: block;
   color: white;
@@ -48,24 +71,22 @@ h3 {color:#4c5150;
 /*Footer*/
 
 .footer-list {list-style-type: none;
-     margin-left: 450px;
      padding: 0;
      overflow: hidden;
      background-color: #269792;}
    
-.footer-list li {float: left;}
-
 .footer-list li a {display: block;
   color: white;
   text-align: center;
   padding: 16px;
   text-decoration: none;}
 
-.footer-list a:hover {background-color: #086a56;}
+.footer-list a:hover {color: #086a56;}
 
 .copy_r {text-align: center;}
 
 #profile_img {border-radius: 80%;}
 
 #greeting {text-shadow: 3px 3px 3px #c3c2c2;
-     font-family: "brush script m7", lucida handwriting, cursive ;}
+     font-family: 'Sacramento', cursive;
+     font-size: 55px;}

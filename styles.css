@@ -1,28 +1,32 @@
 body {background-color:#deefee;
-     margin: 0px;}
+     margin: 0px;
+     font-size: 1.25rem;}
 		
 hr {border-style: none;
-	border-top: 5px dotted rgb(118, 154, 130) ;
+	border-top: 5px dotted rgb(102, 108, 104) ;
 	width: 2%;}
 
 
-h1 {color: #288d82;
-     font-family: "monaco", monospace ;}
+h1 {color: #202827;
+     font-family: "monaco", monospace ;
+     line-height: 65px;}
 
 
 h2 {color: #0e7367;
      font-family: "monaco", monospace ;}
 
-h3 {color:#59b5a2;
+h3 {color:#717575;
      font-family: "Arial",Sans-serif ;
-     font-size: 15px;}
+     font-size: 1.2rem;}
 
 .prof_table {margin: auto;}
 
 .myDiv1 {padding-top: 30px;}
 
 .sce_div {margin: 0 auto 0 auto;
-     width: 800px;}
+     width: 800px;
+     padding-top: 50px;
+     padding-bottom: 50px;}
 
 .cloud1 {position: absolute;
      height: 100px;
@@ -35,19 +39,38 @@ h3 {color:#59b5a2;
      left: 300px;
      top: 300px;}*/
 
-.sceery {height: 470px;
+.scenery {height: 350px;
      width: 800px;}
 
-.myDiv2 {margin-left: 20px;
-     margin-right: 20px;
-     padding: 5px;}
+.myDiv2 {padding: 0px;}
+
+.logo img {height: 100px;
+     width: 100px;
+     border-radius: 100%;}
+
+.edu {padding: 30px;
+     background-color: #b4d7d0;}
+
+.edu-div {width: 1200px;
+     margin: auto;}     
+
+.skills {padding: 30px;
+     background-color: #94d9d1;}
+
+.skills-div {width: 1200px;
+     margin: auto;}    
+
+.intr {padding: 30px;
+     background-color: #81c0b3;}
+
+.intr-div {width: 1200px;
+     margin: auto;}    
 
 .container {background-color: #339c91;}
 
 .my_bio {font-family: 'Merriweather', serif;
-     font-size: 20px;}
+     font-size: 1.3rem;}
 
-.detail_div {padding-top: 30px;}
 /*navugation menu*/    
 .nav_div {position: fixed;
      width: -webkit-fill-available;}
@@ -70,18 +93,24 @@ h3 {color:#59b5a2;
 
 /*Footer*/
 
+.foot_div {background-color: #339c91;
+     padding: 30px;
+     font-size: 1rem;}
+
 .footer-list {list-style-type: none;
      padding: 0;
      overflow: hidden;
-     background-color: #269792;}
+     background-color: #339c91;}
    
 .footer-list li a {display: block;
-  color: white;
+  color: rgb(6, 94, 75);
   text-align: center;
   padding: 16px;
   text-decoration: none;}
 
-.footer-list a:hover {color: #086a56;}
+.nav2 {float: center;}
+
+.footer-list a:hover {color: #82cbbc;}
 
 .copy_r {text-align: center;}
 
@@ -89,4 +118,12 @@ h3 {color:#59b5a2;
 
 #greeting {text-shadow: 3px 3px 3px #c3c2c2;
      font-family: 'Sacramento', cursive;
-     font-size: 55px;}
+     font-size: 3.5rem;}
+
+/* Contact.html */
+.detail_div {padding-top: 30px;
+     padding-left: 30px;}
+     
+.fill {padding-left: 50px;
+     padding-top: 10px;
+     background-color: #c6e3e1;}
